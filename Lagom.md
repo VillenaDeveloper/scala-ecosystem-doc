@@ -241,6 +241,25 @@ Finally, we need to tell Play about our application loader. We can do that by ad
 play.application.loader = com.example.HelloApplicationLoader
 ~~~
 
+## Scala Components
+
+### Service components
+
+![Service components](./Lagom/ServiceComponents.png)
+
+### Persistence and cluster components
+
+![Service components](./Lagom/PersistenceClusterComponents.png)
+
+### Broker API components
+
+![Service components](./Lagom/BrokerApiComponents.png)
+
+### Service Locator components
+
+![Service components](./Lagom/ServiceLocatorComponents.png)
+
+
 ## Service API
 
 In order to define our *Cook as a service* we need to implement a **special interface** called a **service descriptor**. The service descriptor defines two aspects of a Lagom service:
